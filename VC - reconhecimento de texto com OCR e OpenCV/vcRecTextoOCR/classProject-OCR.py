@@ -25,7 +25,7 @@ projeto = "text-recognize/Imagens/Projeto"
 caminho = [os.path.join(projeto, f) for f in os.listdir(projeto)]
 print(caminho)
 
-fonte_dir = '.venv/text-recognize/Imagens/calibri.ttf'  # local da fonte calibri
+fonte_dir = 'text-recognize/Imagens/calibri.ttf'  # local da fonte calibri
 
 # '''
 # Função caixa_texto: desenhar um caixa em volta de um texto na imagem
